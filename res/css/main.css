@@ -1,0 +1,16 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    background: url('https://c1.staticflickr.com/3/2584/3983890449_ba86af4972_b.jpg') no-repeat;
+    background-size:cover;
+}
+
+.linear {
+    list-style: none;
+    text-align: center;
+}
+
+.linear li {
+    display: inline-block;
+    margin: 8px;
+    font-size: 50px;
+}
