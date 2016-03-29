@@ -1,16 +1,61 @@
 body {
-    font-family: 'Amatic SC', cursive;
-    background: url('https://c1.staticflickr.com/3/2584/3983890449_ba86af4972_b.jpg') no-repeat;
-    background-size:cover;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #fafafa;
 }
 
-.linear {
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #eeeeee;
+    overflow:hidden;
+}
+
+.logo, nav, .nav li  {
+    display:inline-block;
+}
+
+.nav li a{ 
+    display: block;
+    line-height: 36px;
+    padding: 0 18px;
+}
+nav {
+    float:right;
+}
+.nav {
+    margin: 0;
+    padding:0;
     list-style: none;
-    text-align: center;
+    display: inline-block;
 }
 
-.linear li {
-    display: inline-block;
-    margin: 8px;
-    font-size: 50px;
+.nav li ul {
+    margin: 0;
+    padding: 0;
+    display:none;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.nav li ul li {
+    display: block;
+}
+
+.nav li ul li a {
+    display: block;
+    line-height: 36px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav li:hover ul {
+    position: absolute;
+    display: block;
 }
